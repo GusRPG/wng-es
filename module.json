@@ -1,0 +1,39 @@
+{
+  "id": "wng-es",
+  "title": "Wrath & Glory - Traducción al Español",
+  "description": "Módulo que agrega soporte para español en el sistema Wrath & Glory para Foundry VTT.",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "13",
+    "verified": "13",
+    "maximum": "13"
+  },
+  "authors": [
+    {
+      "name": "GusRPG"
+    }
+  ],
+  "languages": [
+    {
+      "lang": "es",
+      "name": "Español",
+      "path": "lang/es.json",
+      "system": "wrath-and-glory"
+    }
+  ],
+  "relationships": {
+    "systems": [
+      {
+        "id": "wrath-and-glory",
+        "type": "system",
+        "compatibility": {
+          "minimum": "7.3.0",
+          "verified": "7.3.0"
+        }
+      }
+    ]
+  },
+  "url": "https://github.com/tu-usuario/wrath-and-glory-es",
+  "manifest": "https://raw.githubusercontent.com/tu-usuario/wrath-and-glory-es/main/module.json",
+  "download": "https://github.com/tu-usuario/wrath-and-glory-es/archive/main.zip"
+}
